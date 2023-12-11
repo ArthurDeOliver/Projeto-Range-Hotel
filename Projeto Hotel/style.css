@@ -9,8 +9,6 @@
     --default-gap: 1rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
-
 html{
     font-size: 62.5%;
 }
@@ -24,7 +22,7 @@ body{
     min-height: 100vh;
 }
 
-header{
+.head-page{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,8 +73,6 @@ ul{
 
 /* link da lista */
 .nav-iten a{
-
-
     padding: 1.2em;
     text-decoration: none;
     color: white;
@@ -84,4 +80,101 @@ ul{
 
 .nav-iten:hover{
     background-color: #774c85;
+}
+
+.main1{
+    background-color: #eeeeee;
+    padding: 1.6em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.head-main{
+    /* background-color: #ccc; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head-main h2{
+    font-size: 2.4em;
+    color: var(--primary-color);
+    padding: 1.6em 0;
+}
+
+.p-btn_head-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.btn-disc{
+    cursor: pointer;
+    font-size: 1.7em;
+    color: white;
+    background-color: rgb(106, 183, 197);
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.8em 2em;
+    width: fit-content;
+}
+
+.head-main p{
+    color: #825c8f;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#map, #home, #bub, #sp{
+    fill: #612674;
+    /* border: 2px solid black; */
+    width: 5em;
+    height: 5em;
+}
+
+.icon icon-home3{
+    /* border: 1px solid black; */
+    height: 15em;
+}
+
+.img_h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    color: #612674;
+}
+
+.img_h h2{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.card_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2em;
+    
+}
+
+.card{
+    text-decoration: none;
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.card p{
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    width: 20em;
+    /* border: 1px black solid; */
 }

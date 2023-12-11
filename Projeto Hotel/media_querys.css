@@ -1,5 +1,6 @@
 @media screen and (min-width:780px){
-    header{
+
+    .head-page{
         width: 100%;
         flex-direction: row;
         gap: 0;
@@ -50,6 +51,8 @@
 
     /* link da lista */
     .nav-iten a{
+        /* font-size: 1.6em; */
+        font-weight: 600;
         padding: 0.8em 1em;
         text-decoration: none;
         color: var(--primary-color);
