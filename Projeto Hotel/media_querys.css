@@ -1,65 +1,115 @@
 @media screen and (min-width:780px){
 
-    .head-page{
-        width: 100%;
+    /* header */
+    .head_page{
+        gap: 10em;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: row;
-        gap: 0;
     }
 
-    .img-head{
-        width: fit-content;
-    }
-
-    .img-head a img{
-        height: 6.8em;
-    }
-
-    .img-head a{
-        padding: 0;
-    }
-
-    nav{
-        width: fit-content;
-        margin-top: auto;
-    }
-    
-    .nav-list{
-        gap: 0.5em;
-        width: fit-content;
-        display: flex;
-    }
-    
-    .head-wrapper{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    /* lista */
     ul{
-        /* gap: 2em; */
-        font-size: 1.6em;
-        list-style: none;
+        margin-right: 1em;
+        flex-direction: row;
+        gap: 1.5em;
+
+    }
+
+    .nav_list a{
+        padding: 0.5em 0.5em;
+        color: var(--primary-color);
+        width: fit-content;
+        
+    }
+
+    .nav_list a:hover{
+        color: var(--primary-color);
+        background-color: rgba(200, 200, 200, 0.2);
+    }
+
+    .head_page{
         background-color: white;
     }
 
-    /* li da lista */
-    .nav-iten{
+    .nav_list li{
+        text-align: center;
+        width: 100%;
+    }
+
+    .cards_hotel{
         flex-direction: row;
     }
 
-    /* link da lista */
-    .nav-iten a{
-        /* font-size: 1.6em; */
-        font-weight: 600;
-        padding: 0.8em 1em;
-        text-decoration: none;
-        color: var(--primary-color);
+    .sec1{
+        padding: unset;
     }
 
-    .nav-iten:hover{
-        background-color: #cacaca;
+    .sec1_first{
+        padding: 3em 0;
+        color: white;
+        background-color: var(--primary-color);
+    }
+
+    .sec1_first h2{
+        color: white;
+    }
+
+    #arrow{
+        display: unset;
+    }
+
+}
+
+
+@media screen and (min-width:900px){
+    .sec1_first{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55em;
+        background-image: url(images/bg_topo_1198x670.jpg);
+    }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .sec1_first{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55em;
+        background-image: url(images/bg_topo_1600x1374.jpg);
+        background-blend-mode: soft-light;
+
+    }
+
+    .sec2{
+        justify-content: unset;
+        flex-direction: row;
+    }
+
+    .txt_hotel{
+        border: 2px;
+    }
+
+    .cards_hotel{
+        justify-content: center;
+        padding-left: 5em;
+        width: calc(50% - 5em);
+    }
+
+    .img_hotel img{
+        /* border: 50px solid black; */
+        width: 30em;
+        height: 20em;
+
+    
+    }
+
+    .cards p{
+        width: 15em;
+
     }
 
 }
