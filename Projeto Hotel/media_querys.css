@@ -108,7 +108,6 @@
     }
 
     .cards_hotel{
-        /* border: 1px black solid; */
         justify-content: center;
         width: calc(50% - 5em);
     }
