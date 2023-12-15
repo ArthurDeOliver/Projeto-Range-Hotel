@@ -225,23 +225,31 @@ h2{
 footer{
     background-color: violet;
     width: 100vw;
-    /* height: 5em; */
-}
-
-footer{
     all: unset;
     display: flex;
     justify-content: center;
     /* text-align: center; */
-    background-color: #252525;
+    background-color: #000000;
 }
 
 footer a{
     text-decoration: none;
 }
 
+.linke{
+    color: #0077b5;
+            
+
+}
+
+.git{
+    color:#2dba4e;
+}
+
 footer a:hover{
-    color: darkcyan;
+    border-radius: 0.2em;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .fot_p{
