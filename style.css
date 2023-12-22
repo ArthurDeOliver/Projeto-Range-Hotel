@@ -67,12 +67,12 @@ ul{
 }
 
 .nav_list a{
-    display: inline-block;
+    display: block;
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 500;
-    padding: 1.5em 0;
+    padding: 1em;
     width: 100vw;
     
     
@@ -81,6 +81,7 @@ ul{
 .nav_list li{
     text-align: center;
     width: 100%;
+    /* padding: 1em; */
 }
 
 .nav_list a:hover{
@@ -223,7 +224,6 @@ h2{
 /* footer */
 
 footer{
-    background-color: violet;
     width: 100vw;
     all: unset;
     display: flex;
@@ -238,12 +238,19 @@ footer a{
 
 .linke{
     color: #0077b5;
-            
 
+}
+
+.linke:hover{
+    background-color: #0077b5;
 }
 
 .git{
     color:#2dba4e;
+}
+
+.git:hover{
+    background-color: #2dba4e;
 }
 
 footer a:hover{
